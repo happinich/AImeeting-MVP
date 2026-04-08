@@ -1276,6 +1276,7 @@ export default function MeetingPage() {
         encoding: "pcm_s16le",
         sampleRate: 16000,
         speechModel: "universal-streaming-multilingual",
+        languageDetection: true,
       });
       transcriberRef.current = transcriber;
 
